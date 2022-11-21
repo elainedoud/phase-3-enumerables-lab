@@ -12,7 +12,7 @@ end
 # given an array of spicy foods, **return an array of strings**
 # with the names of each spicy food
 def get_names(spicy_foods)
-  # your code here
+  spicy_foods.filter {|spicy_foods| spicy_foods[0] }
 end
 
 # given an array of spicy foods, **return an array of hashes** 
